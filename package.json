@@ -1,7 +1,7 @@
 {
-  "name": "gas-generic-starter",
+  "name": "gas-gmail-to-sheet",
   "version": "1.0.0",
-  "description": "A generic template for Google Apps Script projects",
+  "description": "A template script that pulls CSV or XLSX files from Gmail, then updates a Google Sheet",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jpelton-stroud/gas-generic-starter.git"
+    "url": "git+https://github.com/jpelton-stroud/gas-gmail-to-sheets.git"
   },
   "keywords": [
     "GAS",
@@ -20,9 +20,9 @@
   "author": "jpelton-stroud",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/jpelton-stroud/gas-generic-starter/issues"
+    "url": "https://github.com/jpelton-stroud/gas-gmail-to-sheets/issues"
   },
-  "homepage": "https://github.com/jpelton-stroud/gas-generic-starter#readme",
+  "homepage": "https://github.com/jpelton-stroud/gas-gmail-to-sheets#readme",
   "devDependencies": {
     "@google/clasp": "^3.1.3",
     "@types/google-apps-script": "^2.0.7",
